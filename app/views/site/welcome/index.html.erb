@@ -1,0 +1,15 @@
+<%= render partial: 'site/shared/questions' %>
+<% if user_signed_in? %>
+  <p>Usuario está Logado / <%= current_user.email %></p>
+
+<% else %>
+  <p>Usuario  não Logado</p>
+<% end %>
+
+<% if admin_signed_in? %>
+  <p>Adimin está Logado / <%= current_admin.email %></p>
+<% else %>
+  <p>Admin não Logado</p>
+<% end %>
+
+
