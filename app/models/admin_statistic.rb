@@ -21,4 +21,4 @@ class AdminStatistic < ApplicationRecord
     admin_statistic.save
   end
 end
-
+s
