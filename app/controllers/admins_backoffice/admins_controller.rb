@@ -1,15 +1,24 @@
 class AdminsBackoffice::AdminsController < AdminsBackofficeController
   # herda de AdminsBackofficeController layout
-  before_action :set_admin, only: [:edit, :update]
+  before_action :set_admin, only: [:edit, :update, :destroy]
   before_action :verify_password, only: [:update]
 
   def index
-    @admins = Admin.all
+    @admins = Admin.all.page(params[:page])
+    # Paginação
   end
 
   def new
     @admin = Admin.new
   end
+  def create
+    @admin = Admin.new(params_admin)
+    if @admin.save
+     redirect_to admins_backoffice_admins_path, notice: "Administrador cadastrado com sucesso!"
+     else
+       render :new
+    end
+   end
 
   def edit
   end
@@ -21,6 +30,16 @@ class AdminsBackoffice::AdminsController < AdminsBackofficeController
       render :edit
     end
   end
+
+  def destroy
+    if @admin.destroy
+      redirect_to admins_backoffice_admins_path, notice: "Administrador excluído com sucesso!"
+    else
+      render :index
+    end
+  end
+
+
    # privados - usados pelos metodos acima
   private
 

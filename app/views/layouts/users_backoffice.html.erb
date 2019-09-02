@@ -230,6 +230,8 @@
     <%= javascript_include_tag 'application' %>
     <%= javascript_include_tag 'users_backoffice' %>
 
+    <!--    Carrega todas as notificaões de users_backoffice - notice -->
+
     <% if notice %>
         <%= javascript_tag do %>
             $.bootstrapGrowl('<%= notice %>', {
