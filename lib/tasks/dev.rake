@@ -60,22 +60,18 @@ namespace :dev do
       # cria assuntos do arquivo txt tirando os espaços
     end
   end
-  #
-  # desc "Adiciona perguntas e respostas"
+
+  # desc "Adiciona questões e respostas"
   # task add_answers_and_questions: :environment do
   #   Subject.all.each do |subject|
   #     rand(5..10).times do |i|
-  #       params = create_question_params(subject)
-  #       answers_array = params[:question][:answers_attributes]
-  #
-  #       add_answers(answers_array)
-  #       elect_true_answer(answers_array)
-  #
-  #       Question.create!(params[:question])
+  #       Question.create!(
+  #           description: "#{Faker::Lorem.paragraph} #{Faker::Lorem.question}",
+  #           subject: subject
+  #       )
   #     end
   #   end
   # end
-  #
   # desc "Reseta o contador dos assuntos"
   # task reset_subject_counter: :environment do
   #   show_spinner("Resetando contador dos assuntos...") do
@@ -98,31 +94,31 @@ namespace :dev do
 
   private
 
-  # def create_question_params(subject = Subject.all.sample)
-  #   { question: {
-  #         description: "#{Faker::Lorem.paragraph} #{Faker::Lorem.question}",
-  #         subject: subject,
-  #         answers_attributes: []
-  #     }
-  #   }
-  # end
-  #
-  # def create_answer_params(correct = false)
-  #   { description: Faker::Lorem.sentence, correct: correct }
-  # end
-  #
-  # def add_answers(answers_array = [])
-  #   rand(2..5).times do |j|
-  #     answers_array.push(
-  #       create_answer_params
-  #     )
-  #   end
-  # end
-  #
-  # def elect_true_answer(answers_array = [])
-  #   selected_index = rand(answers_array.size)
-  #   answers_array[selected_index] = create_answer_params(true)
-  # end
+  def create_question_params(subject = Subject.all.sample)
+    { question: {
+          description: "#{Faker::Lorem.paragraph} #{Faker::Lorem.question}",
+          subject: subject,
+          answers_attributes: []
+      }
+    }
+  end
+
+  def create_answer_params(correct = false)
+    { description: Faker::Lorem.sentence, correct: correct }
+  end
+
+  def add_answers(answers_array = [])
+    rand(2..5).times do |j|
+      answers_array.push(
+        create_answer_params
+      )
+    end
+  end
+
+  def elect_true_answer(answers_array = [])
+    selected_index = rand(answers_array.size)
+    answers_array[selected_index] = create_answer_params(true)
+  end
 
   def show_spinner(msg_start, msg_end = "Concluído!")
     spinner = TTY::Spinner.new("[:spinner] #{msg_start}")

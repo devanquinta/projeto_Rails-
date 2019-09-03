@@ -53,6 +53,7 @@ gem 'pry-rails'
 gem 'bootstrap-sass'
 gem 'kaminari'
 gem 'kaminari-i18n'
+gem 'searchkick'
 # Curso
 
 

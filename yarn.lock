@@ -2,11 +2,6 @@
 # yarn lockfile v1
 
 
-bootstrap-4.1.3-rtl@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/bootstrap-4.1.3-rtl/-/bootstrap-4.1.3-rtl-1.0.1.tgz#ee6993ad0c0a1266836f2b611163311f2e91a61a"
-  integrity sha512-W53ZJ4VUj/v0dZ4loFlmXe0x3PC4IlqKQORJPhQu03wiZQOUeG9ZdUr4IANAIKkvRouFeQvb5JyrQDPqUuIhkA==
-
 bootstrap-growl-ifightcrime@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/bootstrap-growl-ifightcrime/-/bootstrap-growl-ifightcrime-1.1.0.tgz#3f83c12bd29281315580a05ec13841d60031539e"
@@ -16,6 +11,11 @@ bootstrap@^4.3.1:
   version "4.3.1"
   resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-4.3.1.tgz#280ca8f610504d99d7b6b4bfc4b68cec601704ac"
   integrity sha512-rXqOmH1VilAt2DyPzluTi2blhk17bO7ef+zLLPlWvG494pDxcM234pJ8wTc/6R40UWizAIIMgxjvxZg5kmsbag==
+
+fake@^0.2.2:
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/fake/-/fake-0.2.2.tgz#68fe672725ff0f5c89ba92c539b31111f122d1f3"
+  integrity sha1-aP5nJyX/D1yJupLFObMREfEi0fM=
 
 fastclick@^1.0.6:
   version "1.0.6"
