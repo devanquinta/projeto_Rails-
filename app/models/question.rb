@@ -1,8 +1,11 @@
 class Question < ApplicationRecord
-  belongs_to :subject, counter_cache: true, inverse_of: :questions
-  has_many :answers
-  accepts_nested_attributes_for :answers, reject_if: :all_blank, allow_destroy: true
+  belongs_to :subject, counter_cache: true, inverse_of: :questions # Um assunto
+  # inverse_of: explica que subject verifica question
 
+  has_many :answers # Muitas respostas
+  accepts_nested_attributes_for :answers, reject_if: :all_blank, allow_destroy: true # Aceita atriibutos aninhados de uma resposta
+  #Se respostas = branco, então rejeita
+  # Obrigado a preencher o assunto
   # Callback
   after_create :set_statistic
 

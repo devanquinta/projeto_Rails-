@@ -62,34 +62,35 @@
 
     <div class="navbar-default sidebar" role="navigation">
 <!--      procurar classes porque essas não são de divs são de listas -->
-      <div class="sidebar-nav navbar-collapse">
+      <br>
+      <div class="sidebar-nav navbar-collapse" style="border: none">
         <br><br><br><br><br>
-        <div class="nav" id="side-menu">
+        <ul class="list-group" id="side-menu" style="width: 234px;">
 
-          <h5>
+          <li class="list-group-item">
             <%= link_to admins_backoffice_welcome_index_path do %>
               <i class="fa fa-dashboard fa-fw"></i> Dashboard
             <% end %>
-          </h5>
+          </li>
 
-          <h5>
+          <hli class="list-group-item">
             <%= link_to admins_backoffice_admins_path do %>
               <i class="fa fa-users fa-fw"></i> Administradores
             <% end %>
-          </h5>
+          </hli>
 
-          <h5>
+          <li class="list-group-item">
             <%= link_to admins_backoffice_subjects_path do %>
               <i class="fa fa-file-text-o fa-fw"></i> Assuntos/Áreas
             <% end %>
-          </h5>
+          </li>
 
-          <h5>
+          <li class="list-group-item">
             <%= link_to admins_backoffice_questions_path do %>
-              <i class="fa fa-th-list fa-fw"></i> Perguntas
+              <il class="fa fa-th-list fa-fw"></il> Perguntas
             <% end %>
-          </h5>
-        </div>
+          </li>
+        </ul>
       </div>
       <!-- /.sidebar-collapse -->
     </div>

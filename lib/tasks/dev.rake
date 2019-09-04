@@ -61,17 +61,22 @@ namespace :dev do
     end
   end
 
-  desc "Adiciona questões e respostas"
+  desc "Adiciona perguntas e respostas" # busca dados no privado - private - metodos
   task add_answers_and_questions: :environment do
     Subject.all.each do |subject|
       rand(5..10).times do |i|
-        Question.create!(
-            description: "#{Faker::Lorem.paragraph} #{Faker::Lorem.question}",
-            subject: subject
-        )
+        params = create_question_params(subject) # metodo em privado
+        answers_array = params[:question][:answers_attributes]
+
+        add_answers(answers_array) # metodo em privado - adivona as respostas
+        elect_true_answer(answers_array) # metodo em privado - elege as respostas verdadeiras
+
+        Question.create!(params[:question])
       end
     end
   end
+
+
   # desc "Reseta o contador dos assuntos"
   # task reset_subject_counter: :environment do
   #   show_spinner("Resetando contador dos assuntos...") do
@@ -94,7 +99,7 @@ namespace :dev do
 
   private
 
-  def create_question_params(subject = Subject.all.sample)
+  def create_question_params(subject = Subject.all.sample) # cria um subject
     { question: {
           description: "#{Faker::Lorem.paragraph} #{Faker::Lorem.question}",
           subject: subject,

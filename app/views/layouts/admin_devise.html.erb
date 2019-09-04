@@ -17,13 +17,17 @@
     <![endif]-->
 </head>
 <body>
+<h1>Devise layout/admin_devise - apagar</h1>
     <div class="container">
       <%= yield %>
     </div>
+<!--no final-->
 <!--    Controla o css-->
     <%= javascript_include_tag 'application' %>
+<!--        application_conntroler-->
 <!--    controla o js -->
     <%= javascript_include_tag 'admin_devise' %>
+<!--        admin_devise_conntroler-->
     <% if flash %>
         <% flash.each do |key, value| %>
           <%= javascript_tag do %>
