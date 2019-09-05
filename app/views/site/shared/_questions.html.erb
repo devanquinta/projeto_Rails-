@@ -1,20 +1,23 @@
 <!-- Main component for a primary marketing message or call to action -->
+
 <div class="jumbotron">
-  <h3><%= msg_jumbotron %></h3>
+  <h5><%= msg_jumbotron %></h5>
+<!--  msg_jumbotron - Últimas perguntas cadastradas...-->
 </div>
 
 <% @questions.each do |question| %>
   <%= form_with url: site_answer_path do |form| %>
-    <div class="panel panel-default">
-      <div class="panel-heading">
-        <h3 class="panel-title">
+    <div>
+      <p style="color: #730E15">Estou em  shared/_question.html.erb também as questões - apagar</p>
+      <div>
+        <p>
           <span class="label label-info" style="margin-right: 10px;">
-            <%= link_to "#{question.subject.description} (#{question.subject.questions_count})", site_search_subject_path(question.subject_id, question.subject.description), style:"color: white;" %>
+            <%= link_to "#{question.subject.description} (#{question.subject.questions_count})", site_search_subject_path(question.subject_id, question.subject.description), style:"color: white;font-weight: bold;" %>
           </span>
           <%= sanitize question.description %>
-        </h3>
+        </p>
       </div>
-      <div class="panel-body">
+      <div style="height: 250px">
         <ul>
           <% question.answers.each do |answer| %>
             <li style="list-style:none;" >
@@ -26,8 +29,9 @@
               </div>
             </li>
           <% end %>
+          <br>
           <li style="list-style:none;">
-            <%= form.submit "Responder", class:"btn btn-default", id: "submit_#{question.id}" %>
+            <%= form.submit "Responder", class:"btn btn-dark", id: "submit_#{question.id}" %>
           </li>
         </ul>
       </div>
@@ -41,6 +45,6 @@
   </div>
 <% else %>
   <div class="alert alert-warning" role="alert">
-    Efetue login para poder continuar respondendo as questões...
+    <p>Efetue login para poder continuar respondendo as questões...</p>
   </div>
 <% end %>
