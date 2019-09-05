@@ -16,11 +16,16 @@
   </head>
 
   <body class="login">
+  <h1> layout user / layout/user_devise -- apagar</h1>
     <%= yield %>
 
     <%= javascript_include_tag 'application' %>
+<!--  # carrega de aplication-->
     <%= javascript_include_tag 'user_devise' %>
+<!--  # carrega de user_devise mas da erro -->
+<!--  tenho user_devise js e css  em initializes/assets-->
 
+<!--  mensagens-->
     <% if flash %>
         <% flash.each do |key, value| %>
           <%= javascript_tag do %>
