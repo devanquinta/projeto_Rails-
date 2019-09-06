@@ -1,7 +1,14 @@
 <% if @answer.correct %>
+<!--  # Está procurando no controller do answer-->
+  <div class="jumbotron">
   <h1 style="color: green;">Parabéns você ACERTOU! \o/</h1>
+  </div>
 <% else %>
+  <div class="jumbotron">
   <h1 style="color: red;">Infelimente você ERROU! :(</h1>
+  </div>
 <% end %>
 
 <h3 style="color: #730E15"> Em answer/question.html  apagar</h3>
+
+<!--<h1>O ID da resposta selecionada é : <%#= params[:answer] %> Post - não dá para ver </h1>-->
