@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="eac7f1ff-0a41-4582-91e8-035b44973ca1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/curso-rails-5x/modulo_05/time_to_answer/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/curso-rails-5x/modulo_05/time_to_answer/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/curso-rails-5x/modulo_05/time_to_answer/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/curso-rails-5x/modulo_05/time_to_answer/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/curso-rails-5x/modulo_05/time_to_answer/app/views/site/shared/_questions.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/curso-rails-5x/modulo_05/time_to_answer/app/views/site/shared/_questions.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/curso-rails-5x/modulo_05/time_to_answer/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/curso-rails-5x/modulo_05/time_to_answer/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/curso-rails-5x/modulo_05/time_to_answer/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/curso-rails-5x/modulo_05/time_to_answer/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/time_to_answer/app/models/question.rb" beforeDir="false" afterPath="$PROJECT_DIR$/time_to_answer/app/models/question.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/time_to_answer/app/views/site/shared/_questions.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/time_to_answer/app/views/site/shared/_questions.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/time_to_answer/lib/tasks/dev.rake" beforeDir="false" afterPath="$PROJECT_DIR$/time_to_answer/lib/tasks/dev.rake" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/time_to_answer" />
+  </component>
+  <component name="ProjectId" id="1Q3QabX1jtB7J6cGQdIjyknK5S0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/time_to_answer/vendor/assets/javascripts" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="subject" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="modulo_05" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/time_to_answer/app/models" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/time_to_answer/app/models/subject.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Ruby.subject" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" RAKE_SPRING_PRE_LOADER_OPTION="true" RAILS_SPRING_PRE_LOADER_OPTION="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eac7f1ff-0a41-4582-91e8-035b44973ca1" name="Default Changelist" comment="" />
+      <created>1566996863732</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1566996863732</updated>
+      <workItem from="1566996865468" duration="19590000" />
+      <workItem from="1567082590749" duration="17688000" />
+      <workItem from="1567104861400" duration="100000" />
+      <workItem from="1567105261669" duration="3318000" />
+      <workItem from="1567167401334" duration="22229000" />
+      <workItem from="1567428436280" duration="4402000" />
+      <workItem from="1567432945509" duration="10726000" />
+      <workItem from="1567446179341" duration="5870000" />
+      <workItem from="1567520937869" duration="14267000" />
+      <workItem from="1567600924370" duration="20599000" />
+      <workItem from="1567686827397" duration="23293000" />
+      <workItem from="1567773510280" duration="24061000" />
+      <workItem from="1568291510936" duration="744000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/modulo_05@subject.rcov" NAME="subject Coverage Results" MODIFIED="1567611422156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/time_to_answer/app/models" MODULE_NAME="modulo_05" />
+  </component>
+</project>
