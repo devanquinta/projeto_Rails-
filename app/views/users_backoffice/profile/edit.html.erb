@@ -25,14 +25,14 @@
             <div class="form-group">
                 <%= form.label :first_name, class:"control-label col-md-3 col-sm-3 col-xs-12" %>
                 <div class="col-md-6 col-sm-6 col-xs-12">
-                  <%= form.text_field :first_name, class:"form-control col-md-7 col-xs-12" %>
+                  <%= form.text_field :first_name, class:"form-control col-md-7 col-xs-12",:style=>'color:gray;'%>
                 </div>
             </div>
             <br><br><br>
             <div class="form-group">
                 <%= form.label :last_name, class:"control-label col-md-3 col-sm-3 col-xs-12" %>
                 <div class="col-md-6 col-sm-6 col-xs-12">
-                  <%= form.text_field :last_name, class:"form-control col-md-7 col-xs-12" %>
+                  <%= form.text_field :last_name, class:"form-control col-md-7 col-xs-12" ,:style=>'color:gray;'%>
                 </div>
             </div>
             <br><br><br>
@@ -41,7 +41,8 @@
                 <div class="col-md-6 col-sm-6 col-xs-12">
                   <%= form.text_field :email, 
                           class:"form-control col-md-7 col-xs-12", 
-                          readonly: true  %>
+                          readonly: true, :style=>'color:gray;'  %>
+                          <!-- email é somente leitura  -->
                 </div>
             </div>
             <br><br><br>
@@ -50,7 +51,7 @@
               <div class="form-group">
                   <%= profile_form.label :address, class:"control-label col-md-3 col-sm-3 col-xs-12" %>
                   <div class="col-md-6 col-sm-6 col-xs-12">
-                    <%= profile_form.text_field :address, class:"form-control col-md-7 col-xs-12"%>
+                    <%= profile_form.text_field :address, class:"form-control col-md-7 col-xs-12" , :style=>'color:gray;'%>
                   </div>
               </div>
               <br><br><br>
@@ -89,7 +90,7 @@
               <br><br><br>
   
               <div class="form-group">
-                  <%= profile_form.label :birthdate, class:"control-label col-md-3 col-sm-3 col-xs-12" %>
+                  <%= profile_form.label :birthdate, class:"control-label col-md-3 col-sm-3 col-xs-12" , :style=>'color:gray;'%>
                   <div class="col-md-6 col-sm-6 col-xs-12">
                     <%= profile_form.text_field :birthdate, 
                         value: (l(@user.user_profile.birthdate) unless @user.user_profile.birthdate.blank?) ,

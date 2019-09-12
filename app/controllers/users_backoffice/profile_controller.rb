@@ -1,6 +1,7 @@
 class UsersBackoffice::ProfileController < UsersBackofficeController
   before_action :verify_password, only: [:update]
   before_action :set_user
+  # lembrar que os métodos privados que têm as funções prinncipais 
   
   def edit
     @user.build_user_profile if @user.user_profile.blank?
@@ -14,7 +15,7 @@ class UsersBackoffice::ProfileController < UsersBackofficeController
       end
     else
       render :edit
-    end    
+    end
   end
 
   private

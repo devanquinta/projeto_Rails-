@@ -9,7 +9,7 @@ Rails.application.routes.draw do
   namespace :users_backoffice do
     get 'welcome/index'
     get 'profile', to: 'profile#edit' # aponta para o controller profile dentro de user_backoffice 
-    patch 'profile', to: 'profile#update'
+    patch 'profile', to: 'profile#update'# Atualizar usuario - pode ser put 
     get 'zip_code', to: 'zip_code#show'
   end
   namespace :admins_backoffice do
