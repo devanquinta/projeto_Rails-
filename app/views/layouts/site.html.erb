@@ -32,10 +32,10 @@
             <span class="icon-bar"></span>
           </button>
           <%= link_to 'TIME TO  ANSWER', root_path, class: "navbar-brand" %>
-          <span style="margin-left: 782px">   <%= link_to users_backoffice_welcome_index_path do %>
+          <p style="margin-left: 782px; margin-top:-30px">   <%= link_to users_backoffice_welcome_index_path do %>
               <i class="fa fa-user fa-fw"></i>
             <% end %>
-        </span>
+          </p>
           </ul>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
@@ -45,7 +45,7 @@
               <%= form.text_field :term, class: "form-control", placeholder: "Digite algo..." %>
               <p> layouts/site.html.erb -botão pesquisar -apagar a descrição</p>
             </div>
-            <button type="submit" class="btn btn-success">Pesquisar</button>
+            <button type="submit" class="btn btn-primary">Pesquisar</button>
           <% end %>
           <ul class="nav navbar-nav navbar-right">
             <% unless user_signed_in? %>

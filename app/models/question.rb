@@ -1,5 +1,6 @@
 class Question < ApplicationRecord
   belongs_to :subject, counter_cache: true, inverse_of: :questions # Um assunto
+  #counter_cache: true - contagem de qustoes por assunto
   # inverse_of: explica que subject verifica question
 
   has_many :answers # Muitas respostas

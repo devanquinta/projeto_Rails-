@@ -48,14 +48,11 @@
   <% end %>
 <% end %>
 <% if user_signed_in? %>
-<!--  <div class="text-center">-->
-    <%#= paginate @questions %>
-<!--  </div>-->
+< <div class="text-center">
+    <%= paginate @questions %>
+ </div>
 <% else %>
   <div class="alert alert-warning" role="alert">
     <p>Efetue login para poder continuar respondendo as questões...</p>
   </div>
 <% end %> site/shared/_question.html.erb - apagar
-<div class="text-center">
-  <%= paginate @questions %>
-</div>

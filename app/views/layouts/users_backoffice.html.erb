@@ -17,7 +17,7 @@
 </head>
 
 <body class="nav-md">
-<p style="color: #fff">layouts/users_backoffice.html.erb - me apague - erros </p>
+<p style="color:red">layouts/users_backoffice.html.erb - me apague - erros </p>
 
 <!--###############################################-->
 <div class="container body">
@@ -36,7 +36,7 @@
             <%= link_to image_tag(avatar_url, alt:"...", class:"img-circle profile_img", id:"imgAvatarMd"), '#', "data-toggle":"modal", "data-target":"#avatarModal" %>
           </div>
           <div class="profile_info">
-            <span>Seja bem-vindo,</span>
+            <span>Bem-vindo,</span>
             <h2><%= current_user.full_name %></h2>
           </div>
         </div>
@@ -93,12 +93,12 @@
     <div class="top_nav">
       <div class="nav_menu">
         <nav>
-          <div class="nav toggle">
+          <div style="margin-top:-10px" class="nav toggle">
             <a id="menu_toggle"><i class="fa fa-bars"></i></a>
           </div>
 
           <ul class="nav navbar-nav navbar-right">
-            <li class="">
+            <li class="" style="margin-left: 300px">
               <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
                 <%= image_tag avatar_url, alt:'', id:"imgAvatarSm" %>
                 <%= current_user.email %>
@@ -200,9 +200,6 @@
 
     <!-- footer content -->
     <footer>
-      <div class="pull-right">
-        Gentelella - Bootstrap Admin Template by <a href="https://colorlib.com">Colorlib</a>
-      </div>
       <div class="clearfix"></div>
     </footer>
     <!-- /footer content -->

@@ -16,7 +16,7 @@
   </head>
 
   <body class="login">
-  <h1> layout user / layout/user_devise -- apagar</h1>
+  <h3 style="color:red"> layout user / layout/user_devise -- apagar</h3>
     <%= yield %>
 
     <%= javascript_include_tag 'application' %>
@@ -40,6 +40,8 @@
     <% end %>
 
     <% unless resource.errors.empty? %>
+    <!-- ao menos ou se não -->
+    <!-- menssagens de erro de cadstro de usuaqrios  -->
         <% resource.errors.full_messages.each do |msg| %>
           <%= javascript_tag do %>
               $.bootstrapGrowl('<%= msg %>', {
