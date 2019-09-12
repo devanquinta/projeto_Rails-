@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/curso-rails-5x" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/gentelella" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/time_to_answer" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/time_to_answer/gentelella" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/time_to_answer/public/templates/gentelella" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/time_to_answer/public/templates/startbootstrap-sb-admin-2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/time_to_answer/public/templates/startbootstrap-sb-admin-2/data/gentelella" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/time_to_answer/startbootstrap-sb-admin-2" vcs="Git" />
+  </component>
+</project>
