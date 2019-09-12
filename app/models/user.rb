@@ -10,7 +10,7 @@ class User < ApplicationRecord
   # Callback
   after_create :set_statistic
 
-  # Validations
+  # Validações - update nete caso
   validates :first_name, presence: true, length: { minimum: 3 }, on: :update, unless: :reset_password_token_present?
   
   # Virtual Attributes
