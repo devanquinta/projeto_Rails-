@@ -8,7 +8,7 @@ class Question < ApplicationRecord
   #Se respostas = branco, então rejeita
   # Obrigado a preencher o assunto
   # Callback
-  after_create :set_statistic
+  after_create :set_statistic # chama a função depois de uma questão ser criada
 
   # Kaminari
   paginates_per 5

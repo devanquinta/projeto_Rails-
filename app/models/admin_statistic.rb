@@ -5,7 +5,7 @@ class AdminStatistic < ApplicationRecord
     total_questions: "TOTAL_QUESTIONS"
   }
 
-  # Scopes
+  # Scopes - Escopos
   scope :total_users, -> {
     find_by_event(EVENTS[:total_users]).value
   }

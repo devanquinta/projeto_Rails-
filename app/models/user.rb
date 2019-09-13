@@ -8,7 +8,7 @@ class User < ApplicationRecord
   accepts_nested_attributes_for :user_profile, reject_if: :all_blank
   
   # Callback
-  after_create :set_statistic
+  after_create :set_statistic # depois de criado um usuario, roda o metodo set_statistic
 
   # Validações - update nete caso
   validates :first_name, presence: true, length: { minimum: 3 }, on: :update, unless: :reset_password_token_present?
