@@ -16,7 +16,7 @@ class AdminStatistic < ApplicationRecord
 
   # Class Methods
   def self.set_event(event)
-    admin_statistic = AdminStatistic.find_or_create_by(event: event)
+    admin_statistic = AdminStatistic.find_or_create_by(event: event)# admin_statistic model
     admin_statistic.value += 1
     admin_statistic.save
   end
