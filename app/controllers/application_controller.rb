@@ -1,7 +1,7 @@
 class ApplicationController < ActionController::Base
   layout :layout_by_resource #layout da pagina
   before_action :check_pagination
-  before_action :set_global_params
+  before_action :set_global_params # variaveis globais
 
   protected
 
@@ -18,6 +18,6 @@ class ApplicationController < ActionController::Base
     end
 
     def set_global_params
-      $global_params = params
+      $global_params = params # É UMA VARIAVEL GLOBAL
     end
 end

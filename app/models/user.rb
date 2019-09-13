@@ -12,6 +12,7 @@ class User < ApplicationRecord
 
   # Validações - update nete caso
   validates :first_name, presence: true, length: { minimum: 3 }, on: :update, unless: :reset_password_token_present?
+  #params só está disponivel no controller
   
   # Virtual Attributes
   def full_name
