@@ -54,6 +54,8 @@ gem 'bootstrap-sass'
 gem 'kaminari'
 gem 'kaminari-i18n'
 gem 'prawn-rails'
+gem 'redis'
+gem 'hiredis'
 # Curso ***********************************************
 
 
