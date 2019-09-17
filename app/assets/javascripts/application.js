@@ -22,7 +22,7 @@
 //= require surface-fix
 
 
-
+// Código que verifica se jogou um anexo dentro do trix
 
 document.addEventListener('trix-attachment-add', function (event) {
   var file = event.attachment.file;

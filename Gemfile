@@ -48,7 +48,7 @@ gem 'prawn-rails'
 gem 'redis'
 gem 'hiredis'
 gem 'trix'
-gem 'searchkick'
+gem 'searchkick' # pequisa inteligente
 gem 'pry-rails'
 gem 'bootstrap-sass'
 gem 'kaminari'
