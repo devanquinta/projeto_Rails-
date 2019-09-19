@@ -71,4 +71,30 @@ RSpec.configure do |config|
   config.filter_rails_from_backtrace!
   # arbitrary gems may also be filtered via:
   # config.filter_gems_from_backtrace("gem name")
+  #
+
+  #********CONFIGURAÇÃO PARA O DEVISE ***************************
+  config.fixture_path = "#{::Rails.root}/spec/fixtures"
+
+  config.use_transactional_fixtures = false
+
+  config.infer_spec_type_from_file_location!
+
+  config.filter_rails_from_backtrace!
+
+  # ---------------------------------------------
+  # add from here
+  config.expect_with :rspec do |c|
+    c.syntax = :expect
+  end
+
+  config.include Devise::Test::ControllerHelpers, :type => :controller
+
+  config.include Warden::Test::Helpers
+
+  # add until here
+  # ---------------------------------------------
+
+
+  #********CONFIGURAÇÃO PARA O DEVISE ***************************
 end
