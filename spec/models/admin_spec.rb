@@ -1,4 +1,5 @@
 require 'rails_helper'
+require_relative "../support/devise" # para o devise
 # Está no bando do admin e no model. Está ligado ao devise
 RSpec.describe Admin, type: :model do
   describe 'VALIDAÇÃO' do

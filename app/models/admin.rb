@@ -9,6 +9,6 @@ class Admin < ApplicationRecord
   # Kaminari
    paginates_per 5
   # paginação a 5 elementos
-  # validates_presence_of :email # Obrigatorio
+  validates_presence_of :email # Obrigatorio
   validates_presence_of :encrypted_password # Obrigatorio
 end
