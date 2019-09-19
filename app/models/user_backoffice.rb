@@ -1,0 +1,2 @@
+class UserBackoffice < ApplicationRecord
+end

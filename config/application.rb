@@ -12,7 +12,7 @@ require "action_mailer/railtie"
 require "action_view/railtie"
 require "action_cable/engine"
 require "sprockets/railtie"
-# require "rails/test_unit/railtie"
+require "rails/test_unit/railtie"
 
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
@@ -33,5 +33,7 @@ module TimeToAnswer
 
     # Allow Web Console from Vagrant
     #config.web_console.whitelisted_ips = '10.0.2.2'
+
+
   end
 end

@@ -3,15 +3,16 @@
 class DeviseCreateAdmins < ActiveRecord::Migration[5.2]
   def change
     create_table :admins do |t|
-      ## Database authenticatable
-      t.string :email,              null: false, default: ""
+      #Está no model do admin
+      ## Banco de dados autenticável
+      t.string :email,              null: false, default: "" # por padrão é vazio
       t.string :encrypted_password, null: false, default: ""
 
-      ## Recoverable
+      ## Recuperável
       t.string   :reset_password_token
       t.datetime :reset_password_sent_at
 
-      ## Rememberable
+      ## Lembrável
       t.datetime :remember_created_at
 
       ## Trackable
