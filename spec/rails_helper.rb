@@ -5,6 +5,8 @@ require File.expand_path('../../config/environment', __FILE__)
 require 'spec_helper'
 require 'rspec/rails'
 require 'shoulda/matchers'
+require_relative 'support/controller_macros' # or require_relative './controller_macros' if write in `spec/support/devise.rb`
+
 
 # RSpec.configure do |config|
 #   config.infer_spec_type_from_file_location!
@@ -88,9 +90,25 @@ RSpec.configure do |config|
     c.syntax = :expect
   end
 
+  #Devise
+
   config.include Devise::Test::ControllerHelpers, :type => :controller
 
   config.include Warden::Test::Helpers
+
+  RSpec.configure do |config|
+    # ...
+    config.include Devise::Test::IntegrationHelpers, type: :request
+  end
+
+  RSpec.configure do |config|
+    # For Devise > 4.1.1
+    config.include Devise::Test::ControllerHelpers, :type => :controller
+    # Use the following instead if you are on Devise <= 4.1.1
+    # config.include Devise::TestHelpers, :type => :controller
+    config.extend ControllerMacros, :type => :controller
+  end
+
 
   # add until here
   # ---------------------------------------------

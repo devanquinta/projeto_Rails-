@@ -61,6 +61,7 @@ gem 'prawn-rails'
 gem 'redis'
 gem 'hiredis'
 gem 'sprockets-rails', :require => 'sprockets/railtie'
+gem 'rails-controller-testing'
 # Curso ***********************************************
 
 
