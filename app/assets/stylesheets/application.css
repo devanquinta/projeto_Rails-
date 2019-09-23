@@ -1,3 +1,4 @@
+
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
@@ -13,8 +14,3 @@
  *= require trix
  *= require_self
  */
-
-/**= require bootstrap/dist/css/bootstrap*/
-/**= require metismenu/dist/metisMenu*/
-/**= require sb-admin-2*/
-/**= require font-awesome/css/font-awesome*/

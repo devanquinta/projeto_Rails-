@@ -344,7 +344,7 @@ DEPENDENCIES
   rails_db (>= 2.0.4)
   redis
   rspec-rails (~> 3.8)
-  sass-rails (~> 5.0)
+  sass-rails
   searchkick
   selenium-webdriver
   shoulda-matchers
