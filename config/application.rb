@@ -33,7 +33,8 @@ module TimeToAnswer
 
     # Allow Web Console from Vagrant
     #config.web_console.whitelisted_ips = '10.0.2.2'
-
+    config.assets.enabled = true
+    config.assets.paths << "#{Rails.root}/app/or_whatever_path_to_use"
 
   end
 end

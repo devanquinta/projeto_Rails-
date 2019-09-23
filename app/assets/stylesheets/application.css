@@ -12,8 +12,9 @@
  *
  *= require trix
  *= require_self
- *= require bootstrap/dist/css/bootstrap
- *= require metismenu/dist/metisMenu
- *= require sb-admin-2
- *= require font-awesome/css/font-awesome
  */
+
+/**= require bootstrap/dist/css/bootstrap*/
+/**= require metismenu/dist/metisMenu*/
+/**= require sb-admin-2*/
+/**= require font-awesome/css/font-awesome*/
