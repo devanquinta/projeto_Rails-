@@ -1,5 +1,5 @@
 class UsersBackofficeController < ApplicationController
-  before_action :authenticate_user! # autentifica user
+  before_action :authenticate_user! # autentifica usuario
   before_action :build_profile
   layout 'users_backoffice'
 

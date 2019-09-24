@@ -6,6 +6,5 @@ FactoryBot.define do
     sequence(:password) { |n| "senha#{n}" }
     sequence(:reset_password_token) { |n| "senha confirm#{n}" }
     sequence(:reset_password_sent_at) { |n| "senha time#{n}" }
-
   end
 end
