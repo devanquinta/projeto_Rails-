@@ -9,7 +9,6 @@ RSpec.describe AdminsBackoffice::QuestionsController, type: :controller do
         post :create, params: { description: question.description}# criar factory question
       end
       it { expect(response).to have_http_status(302)}# 302 é resposta ao método get
-      it { expect(controller.current_admin).to eq(nil) }
     end
   end
 end
