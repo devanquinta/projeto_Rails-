@@ -11,4 +11,7 @@ class Admin < ApplicationRecord
   # paginação a 5 elementos
   validates_presence_of :email # Obrigatorio
   validates_presence_of :encrypted_password # Obrigatorio
+  def Admin
+    @admin = Admin.last
+  end
 end

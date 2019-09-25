@@ -13,6 +13,10 @@ class AdminStatistic < ApplicationRecord
   scope :total_questions, -> {
     find_by_event(EVENTS[:total_questions]).value
   }
+  def last
+    @last = AdminStatistic.last
+  end
+
 
   # Class Methods
   def self.set_event(event)
