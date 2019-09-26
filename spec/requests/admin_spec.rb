@@ -7,10 +7,9 @@ RSpec.describe 'Gerenciando Usuarios', type: :request do
         before(:each) do
           patch new_admins_backoffice_admin_path, params: {admin: admin_params }
         end
-        it { expect(response.code).to eq '302' }
-        it { expect(response).to_not render_template(:show) }
-        it { expect(admin.email).to_not eq('novoemail@email.com') }
-        # it { expect(admin.email).to eq('novoemail@email.com') }
+        it { expect(response.code).to_not eq '200' }
+        # it { expect(response).to render_template(:show) } # teste de controller
+        it { expect(admin.email).to_not eq(admin_params) }
       end
     end
   end

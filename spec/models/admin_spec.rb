@@ -1,5 +1,5 @@
-# require 'rails_helper'
-# require_relative "../support/devise" # para o devise
+require 'rails_helper'
+require_relative "../support/devise" # para o devise
 # Está no bando do admin e no model. Está ligado ao devise
 RSpec.describe Admin, type: :model do
   describe 'VALIDAÇÃO' do
@@ -12,17 +12,18 @@ RSpec.describe Admin, type: :model do
 # expect(subject).to be_valid
       expect(admin).to be_valid
     end
-  end
-  describe 'metodos' do
-    context '#usuario_ativo' do
-      let!(:admin) { FactoryBot.create :admin }
-      before(:each) { admin.Admin }
-      it 'ativa o usuario' do
-        expect(admin.Admin).to be_truthy
+    describe 'metodos' do
+      context '#usuario_ativo' do
+        let!(:admin) { FactoryBot.create :admin }
+        before(:each) { admin.last }
+        it 'ativa o usuario' do
+          expect(admin.last).to be_truthy
+        end
       end
     end
   end
 end
+
 
 
 
