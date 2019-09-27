@@ -13,5 +13,3 @@ RSpec.describe UsersBackoffice::ProfileController, type: :model do
     end
   end
 end
-
-####################ERROOOOOOOO#####################################

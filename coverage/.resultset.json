@@ -1,7 +1,51 @@
 {
   "RSpec": {
     "coverage": {
-      "/home/vander/modulo_05/time_to_answer/app/models/admin_statistic.rb": [
+      "/home/vander/projeto_Rails-/app/models/user.rb": [
+        1,
+        null,
+        null,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null,
+        1,
+        null,
+        1,
+        5,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        0,
+        null,
+        null,
+        null
+      ],
+      "/home/vander/projeto_Rails-/app/models/admin_statistic.rb": [
         null,
         1,
         null,
@@ -31,14 +75,14 @@
         null,
         null
       ],
-      "/home/vander/modulo_05/time_to_answer/app/models/user_profile.rb": [
+      "/home/vander/projeto_Rails-/app/models/user_profile.rb": [
         1,
         1,
         1,
         1,
         null
       ],
-      "/home/vander/modulo_05/time_to_answer/app/mailers/admin_mailer.rb": [
+      "/home/vander/projeto_Rails-/app/mailers/admin_mailer.rb": [
         0,
         0,
         0,
@@ -47,51 +91,51 @@
         0,
         0
       ],
-      "/home/vander/modulo_05/time_to_answer/app/mailers/application_mailer.rb": [
+      "/home/vander/projeto_Rails-/app/mailers/application_mailer.rb": [
         0,
         0,
         0,
         0
       ],
-      "/home/vander/modulo_05/time_to_answer/app/helpers/application_helper.rb": [
+      "/home/vander/projeto_Rails-/app/helpers/application_helper.rb": [
         0,
         0
       ],
-      "/home/vander/modulo_05/time_to_answer/app/helpers/admins_backoffice_helper.rb": [
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "/home/vander/modulo_05/time_to_answer/app/helpers/site/welcome_helper.rb": [
-        0,
-        0
-      ],
-      "/home/vander/modulo_05/time_to_answer/app/helpers/site/answer_helper.rb": [
-        0,
-        0
-      ],
-      "/home/vander/modulo_05/time_to_answer/app/helpers/site/search_helper.rb": [
-        0,
-        0
-      ],
-      "/home/vander/modulo_05/time_to_answer/app/helpers/users_backoffice/welcome_helper.rb": [
-        0,
-        0
-      ],
-      "/home/vander/modulo_05/time_to_answer/app/helpers/users_backoffice/zip_code_helper.rb": [
-        0,
-        0
-      ],
-      "/home/vander/modulo_05/time_to_answer/app/helpers/users_backoffice/profile_helper.rb": [
+      "/home/vander/projeto_Rails-/app/helpers/admins_backoffice_helper.rb": [
         0,
         0,
         0,
         0,
         0
       ],
-      "/home/vander/modulo_05/time_to_answer/app/helpers/users_backoffice_helper.rb": [
+      "/home/vander/projeto_Rails-/app/helpers/site/welcome_helper.rb": [
+        0,
+        0
+      ],
+      "/home/vander/projeto_Rails-/app/helpers/site/answer_helper.rb": [
+        0,
+        0
+      ],
+      "/home/vander/projeto_Rails-/app/helpers/site/search_helper.rb": [
+        0,
+        0
+      ],
+      "/home/vander/projeto_Rails-/app/helpers/users_backoffice/welcome_helper.rb": [
+        0,
+        0
+      ],
+      "/home/vander/projeto_Rails-/app/helpers/users_backoffice/zip_code_helper.rb": [
+        0,
+        0
+      ],
+      "/home/vander/projeto_Rails-/app/helpers/users_backoffice/profile_helper.rb": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "/home/vander/projeto_Rails-/app/helpers/users_backoffice_helper.rb": [
         0,
         0,
         0,
@@ -101,27 +145,27 @@
         null,
         0
       ],
-      "/home/vander/modulo_05/time_to_answer/app/helpers/admins_backoffice/subjects_helper.rb": [
+      "/home/vander/projeto_Rails-/app/helpers/admins_backoffice/subjects_helper.rb": [
         0,
         0
       ],
-      "/home/vander/modulo_05/time_to_answer/app/helpers/admins_backoffice/welcome_helper.rb": [
+      "/home/vander/projeto_Rails-/app/helpers/admins_backoffice/welcome_helper.rb": [
         0,
         0
       ],
-      "/home/vander/modulo_05/time_to_answer/app/helpers/admins_backoffice/subject_helper.rb": [
+      "/home/vander/projeto_Rails-/app/helpers/admins_backoffice/subject_helper.rb": [
         0,
         0
       ],
-      "/home/vander/modulo_05/time_to_answer/app/helpers/admins_backoffice/questions_helper.rb": [
+      "/home/vander/projeto_Rails-/app/helpers/admins_backoffice/questions_helper.rb": [
         0,
         0
       ],
-      "/home/vander/modulo_05/time_to_answer/app/helpers/admins_backoffice/admins_helper.rb": [
+      "/home/vander/projeto_Rails-/app/helpers/admins_backoffice/admins_helper.rb": [
         0,
         0
       ],
-      "/home/vander/modulo_05/time_to_answer/app/helpers/site_helper.rb": [
+      "/home/vander/projeto_Rails-/app/helpers/site_helper.rb": [
         0,
         0,
         0,
@@ -131,77 +175,33 @@
         0,
         null,
         0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "/home/vander/modulo_05/time_to_answer/app/channels/application_cable/channel.rb": [
         0,
         0,
         0,
         0
       ],
-      "/home/vander/modulo_05/time_to_answer/app/channels/application_cable/connection.rb": [
+      "/home/vander/projeto_Rails-/app/channels/application_cable/channel.rb": [
         0,
         0,
         0,
         0
       ],
-      "/home/vander/modulo_05/time_to_answer/app/jobs/application_job.rb": [
+      "/home/vander/projeto_Rails-/app/channels/application_cable/connection.rb": [
         0,
-        0
-      ],
-      "/home/vander/modulo_05/time_to_answer/app/models/user.rb": [
-        0,
-        null,
-        null,
-        0,
-        0,
-        null,
-        0,
-        0,
-        null,
-        0,
-        0,
-        null,
-        null,
-        0,
-        null,
-        null,
-        null,
-        null,
-        null,
-        0,
-        null,
-        null,
-        null,
-        0,
-        0,
-        0,
-        null,
-        0,
-        null,
-        0,
-        0,
-        0,
-        null,
-        null,
-        null,
-        null,
-        0,
-        null,
-        0,
-        null,
-        0,
-        0
-      ],
-      "/home/vander/modulo_05/time_to_answer/app/models/subject.rb": [
         0,
         0,
         0
       ],
-      "/home/vander/modulo_05/time_to_answer/app/models/cep.rb": [
+      "/home/vander/projeto_Rails-/app/jobs/application_job.rb": [
+        0,
+        0
+      ],
+      "/home/vander/projeto_Rails-/app/models/subject.rb": [
+        0,
+        0,
+        0
+      ],
+      "/home/vander/projeto_Rails-/app/models/cep.rb": [
         0,
         null,
         0,
@@ -237,22 +237,22 @@
         0,
         0
       ],
-      "/home/vander/modulo_05/time_to_answer/app/models/application_record.rb": [
+      "/home/vander/projeto_Rails-/app/models/application_record.rb": [
         0,
         0,
         0
       ],
-      "/home/vander/modulo_05/time_to_answer/app/models/user_backoffice.rb": [
+      "/home/vander/projeto_Rails-/app/models/user_backoffice.rb": [
         0,
         null,
         0
       ],
-      "/home/vander/modulo_05/time_to_answer/app/models/answer.rb": [
+      "/home/vander/projeto_Rails-/app/models/answer.rb": [
         0,
         0,
         0
       ],
-      "/home/vander/modulo_05/time_to_answer/app/models/user_statistic.rb": [
+      "/home/vander/projeto_Rails-/app/models/user_statistic.rb": [
         0,
         0,
         null,
@@ -272,7 +272,7 @@
         0,
         0
       ],
-      "/home/vander/modulo_05/time_to_answer/app/models/question.rb": [
+      "/home/vander/projeto_Rails-/app/models/question.rb": [
         0,
         0,
         null,
@@ -324,7 +324,7 @@
         0,
         0
       ],
-      "/home/vander/modulo_05/time_to_answer/app/models/admin.rb": [
+      "/home/vander/projeto_Rails-/app/models/admin.rb": [
         0,
         null,
         0,
@@ -339,7 +339,7 @@
         0,
         0
       ],
-      "/home/vander/modulo_05/time_to_answer/app/controllers/site/answer_controller.rb": [
+      "/home/vander/projeto_Rails-/app/controllers/site/answer_controller.rb": [
         0,
         0,
         null,
@@ -350,7 +350,7 @@
         0,
         0
       ],
-      "/home/vander/modulo_05/time_to_answer/app/controllers/site/search_controller.rb": [
+      "/home/vander/projeto_Rails-/app/controllers/site/search_controller.rb": [
         0,
         null,
         null,
@@ -367,7 +367,7 @@
         0,
         null
       ],
-      "/home/vander/modulo_05/time_to_answer/app/controllers/site/welcome_controller.rb": [
+      "/home/vander/projeto_Rails-/app/controllers/site/welcome_controller.rb": [
         0,
         0,
         null,
@@ -377,7 +377,7 @@
         0,
         0
       ],
-      "/home/vander/modulo_05/time_to_answer/app/controllers/users_backoffice_controller.rb": [
+      "/home/vander/projeto_Rails-/app/controllers/users_backoffice_controller.rb": [
         0,
         0,
         0,
@@ -390,12 +390,12 @@
         0,
         0
       ],
-      "/home/vander/modulo_05/time_to_answer/app/controllers/site_controller.rb": [
+      "/home/vander/projeto_Rails-/app/controllers/site_controller.rb": [
         0,
         0,
         0
       ],
-      "/home/vander/modulo_05/time_to_answer/app/controllers/users_backoffice/profile_controller.rb": [
+      "/home/vander/projeto_Rails-/app/controllers/users_backoffice/profile_controller.rb": [
         0,
         0,
         0,
@@ -427,95 +427,33 @@
         0,
         null,
         0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "/home/vander/modulo_05/time_to_answer/app/controllers/users_backoffice/zip_code_controller.rb": [
         0,
         0,
         0,
         0,
         0
       ],
-      "/home/vander/modulo_05/time_to_answer/app/controllers/users_backoffice/welcome_controller.rb": [
+      "/home/vander/projeto_Rails-/app/controllers/users_backoffice/zip_code_controller.rb": [
         0,
         0,
         0,
         0,
         0
       ],
-      "/home/vander/modulo_05/time_to_answer/app/controllers/admins_backoffice_controller.rb": [
+      "/home/vander/projeto_Rails-/app/controllers/users_backoffice/welcome_controller.rb": [
+        0,
         0,
         0,
         0,
         0
       ],
-      "/home/vander/modulo_05/time_to_answer/app/controllers/application_controller.rb": [
-        0,
-        0,
-        0,
-        0,
-        null,
-        0,
-        null,
-        0,
-        0,
-        null,
-        null,
-        0,
-        null,
-        0,
-        0,
-        0,
-        0,
-        0,
-        null,
+      "/home/vander/projeto_Rails-/app/controllers/admins_backoffice_controller.rb": [
         0,
         0,
         0,
         0
       ],
-      "/home/vander/modulo_05/time_to_answer/app/controllers/admins_backoffice/questions_controller.rb": [
-        0,
-        0,
-        0,
-        null,
-        0,
-        0,
-        0,
-        0,
-        0,
-        null,
-        0,
-        0,
-        0,
-        null,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        null,
-        0,
-        0,
-        null,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        null,
-        0,
-        0,
-        0,
+      "/home/vander/projeto_Rails-/app/controllers/application_controller.rb": [
         0,
         0,
         0,
@@ -525,9 +463,12 @@
         null,
         0,
         0,
-        0,
+        null,
+        null,
         0,
         null,
+        0,
+        0,
         0,
         0,
         0,
@@ -537,7 +478,66 @@
         0,
         0
       ],
-      "/home/vander/modulo_05/time_to_answer/app/controllers/admins_backoffice/subjects_controller.rb": [
+      "/home/vander/projeto_Rails-/app/controllers/admins_backoffice/questions_controller.rb": [
+        0,
+        0,
+        0,
+        null,
+        0,
+        0,
+        0,
+        0,
+        0,
+        null,
+        0,
+        0,
+        0,
+        null,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        null,
+        0,
+        0,
+        null,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        null,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        null,
+        0,
+        null,
+        0,
+        0,
+        0,
+        0,
+        null,
+        0,
+        0,
+        0,
+        null,
+        0,
+        0,
+        0,
+        0
+      ],
+      "/home/vander/projeto_Rails-/app/controllers/admins_backoffice/subjects_controller.rb": [
         0,
         0,
         null,
@@ -593,7 +593,7 @@
         0,
         null
       ],
-      "/home/vander/modulo_05/time_to_answer/app/controllers/admins_backoffice/welcome_controller.rb": [
+      "/home/vander/projeto_Rails-/app/controllers/admins_backoffice/welcome_controller.rb": [
         0,
         0,
         0,
@@ -603,7 +603,7 @@
         0,
         0
       ],
-      "/home/vander/modulo_05/time_to_answer/app/controllers/admins_backoffice/admins_controller.rb": [
+      "/home/vander/projeto_Rails-/app/controllers/admins_backoffice/admins_controller.rb": [
         0,
         null,
         0,
@@ -668,6 +668,6 @@
         0
       ]
     },
-    "timestamp": 1569610306
+    "timestamp": 1569612180
   }
 }

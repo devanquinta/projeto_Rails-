@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eac7f1ff-0a41-4582-91e8-035b44973ca1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/curso-rails-5x/modulo_05/time_to_answer/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/curso-rails-5x/modulo_05/time_to_answer/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/curso-rails-5x/modulo_05/time_to_answer/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/curso-rails-5x/modulo_05/time_to_answer/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/curso-rails-5x/modulo_05/time_to_answer/app/views/site/shared/_questions.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/curso-rails-5x/modulo_05/time_to_answer/app/views/site/shared/_questions.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/curso-rails-5x/modulo_05/time_to_answer/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/curso-rails-5x/modulo_05/time_to_answer/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/curso-rails-5x/modulo_05/time_to_answer/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/curso-rails-5x/modulo_05/time_to_answer/yarn.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/time_to_answer/app/models/question.rb" beforeDir="false" afterPath="$PROJECT_DIR$/time_to_answer/app/models/question.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/time_to_answer/app/views/site/shared/_questions.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/time_to_answer/app/views/site/shared/_questions.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/time_to_answer/lib/tasks/dev.rake" beforeDir="false" afterPath="$PROJECT_DIR$/time_to_answer/lib/tasks/dev.rake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modulo_05.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modulo_05.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/.last_run.json" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/.last_run.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/.resultset.json" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/.resultset.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/models/user_profile_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/models/user_profile_spec.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,7 +17,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/time_to_answer" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1Q3QabX1jtB7J6cGQdIjyknK5S0" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -96,6 +95,7 @@
       <workItem from="1567686827397" duration="23293000" />
       <workItem from="1567773510280" duration="24061000" />
       <workItem from="1568291510936" duration="744000" />
+      <workItem from="1569610998736" duration="1290000" />
     </task>
     <servers />
   </component>
