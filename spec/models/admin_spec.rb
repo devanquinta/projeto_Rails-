@@ -1,13 +1,13 @@
 require 'rails_helper'
-require_relative "../support/devise" # para o devise
+require 'simplecov'
+# require_relative "../support/devise" # para o devise
 # Está no bando do admin e no model. Está ligado ao devise
 RSpec.describe Admin, type: :model do
   describe 'VALIDAÇÃO' do
     let!(:admin) { FactoryBot.create :admin  }
-    subject { admin }
+    # subject { admin }
     it { is_expected.to validate_presence_of(:email) }
     it { is_expected.to validate_presence_of(:encrypted_password) }
-    # it { is_expected.to validate_presence_of(:reset_password_token) }
     it 'é válido' do
 # expect(subject).to be_valid
       expect(admin).to be_valid

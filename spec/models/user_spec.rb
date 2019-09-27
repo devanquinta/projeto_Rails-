@@ -1,5 +1,5 @@
 require 'rails_helper'
-require_relative "../support/devise" # para o devise
+# require_relative "../support/devise" # para o devise
 RSpec.describe User, type: :model do
   describe 'VALIDAÇÃO' do
     let!(:user) { FactoryBot.create :user }

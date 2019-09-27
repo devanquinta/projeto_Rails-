@@ -6,7 +6,8 @@ require 'spec_helper'
 require 'rspec/rails'
 require 'shoulda/matchers'
 require_relative 'support/controller_macros' # or require_relative './controller_macros' if write in `spec/support/devise.rb`
-
+require 'simplecov'
+SimpleCov.start 'rails'
 
 # RSpec.configure do |config|
 #   config.infer_spec_type_from_file_location!
@@ -20,6 +21,13 @@ Shoulda::Matchers.configure do |config|
     with.library :rails
   end
 end
+
+RSpec.configure do |config|
+  config.infer_spec_type_from_file_location!
+  config.render_views
+  config.include RSpecHtmlMatchers
+end
+
 # Add additional requires below this line. Rails is not loaded until this point!
 
 # Requires supporting ruby files with custom matchers and macros, etc, in

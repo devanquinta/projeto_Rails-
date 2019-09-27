@@ -10,6 +10,8 @@ class Question < ApplicationRecord
   # Callback
   after_create :set_statistic # chama a função depois de uma questão ser criada
 
+  validates_numericality_of :subject_id, only_integer: true
+
   # Kaminari
   paginates_per 5
 
@@ -33,6 +35,10 @@ class Question < ApplicationRecord
   scope :last_questions, ->(page) {
     includes(:answers, :subject).order('created_at desc').page(page)
   }
+
+  def questoes
+    @questoes = Question.all
+  end
 
 
 

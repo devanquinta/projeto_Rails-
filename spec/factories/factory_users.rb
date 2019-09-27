@@ -6,6 +6,6 @@ FactoryBot.define do
     # sequence(:reset_password_token) { |n| "confirm senha#{n}" }
     sequence(:first_name) { |n| "Email #{n}" }
     sequence(:last_name) { |n| "senha#{n}" }
-    # association user_profile
+    # association :user_profile
   end
 end
